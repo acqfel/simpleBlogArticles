@@ -1,0 +1,26 @@
+* {box-sizing:border-box;}
+body {background-color: #CCC;}
+
+.nytimes-container {
+    padding: 10px;
+    margin-right:200px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.article-list {
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    list-style-type: none;
+    padding:10px;
+    border-top: 1px solid #CCC;
+}
+.article:first-child {
+    border-top:none;
+}
+
+tr, td {
+    padding: 5px;
+}
